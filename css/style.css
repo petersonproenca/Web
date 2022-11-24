@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Nanum+Myeongjo&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
+	font-size: 16px;
+	color: #e1e8e3;
+	background-color: #24252A;
+	object-fit: co;
+}
+header {
+	background-color: #22222A;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 5%;
+}
+#content1 {
+	width: 100%;
+	height: 90vh;
+	background-color: lightgrey;
+	background: url('../img/bg-img.jpg') no-repeat;
+	background-position: 20% 20% ;
+	background-attachment: fixed;
+	overflow: hidden;
+	background-size: cover;
+}
+#content2 {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to bottom,lightgrey,black);
+	background-position: 20% 20% ;
+	overflow: hidden;
+	background-size: cover;
+}
+#content3 {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/bg-img4.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
+	background-size: cover;
+}
+#content4 {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to bottom right,#290414,#094e63);
+	background-position: 20% 20% ;
+	overflow: hidden;
+	background-size: cover;
+
+}
+.text-cnt2 {
+	transition: background-color; 
+	text-align: center;
+	margin: 50px;
+	font-size: 2.5em;
+	cursor: default;
+}
+
+
+.title {
+	color: #e1e8e3;
+	text-decoration: none;
+	font-size: 2.5em;
+	transition: all 0.3s ease-in 0s;
+}
+.title:hover{
+	color: #5e778f;
+	font-size: 2.6em;
+}
+
+.nav-links {
+ 	list-style: none;
+	padding: 10px 15px;
+}
+.nav-links li {
+	padding: 0px 20px;
+	margin-right: 20px;
+ 	border-radius: 45px;
+ 	display: inline-block;
+ 	line-height: 25px;
+ 	text-align: center;
+
+}
+.nav-links li a {
+	text-decoration: none;
+	color: whitesmoke;
+	transition: all 0.3s ease 0s;
+	
+}
+.nav-links li a:hover {
+	color: #00889a /*#00889a*/; 
+	cursor: pointer;
+}
+button {
+	font-family:'Montserrat',sans-serif;
+	font-size: 1em;
+	color: whitesmoke;
+	background-color: #094e63/*#0a365e*/; 
+	padding: 3px 16px;
+	border: none;
+	border-radius: 45px;
+	transition: all 0.3s linear 0s;
+	cursor: pointer;
+}
+button:hover{	
+	background-color: #00889a;
+}
+
+.card {
+	display: block;
+	width: 50%;
+	height: 40%;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.6);
+	opacity: 0.8;
+	margin: 80px auto;
+	padding: 20px;
+	border-radius: 50px;
+	font-family: 'Nanum Myeongjo', serif;
+	/*box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.8);*/
+	text-align: center;
+	color: #22222A;
+	font-size: 2em;
+	font-weight: bold;
+}
+.card h1 {
+	margin-top: 50px;
+}
+#delsi {
+	color: whitesmoke;
+}
+.found-date {
+	font-weight: lighter;
+	font-size: 16px;
+}
+footer {
+	height:100vh;
+	background-color: black;
+}
